@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Form</title>
+
+    <style>
+        html {
+            display: flex;
+            justify-content: center;
+            background-color: beige;
+            background-image: url("https://wallpapercave.com/wp/wp3172699.gif");
+
+
+        }
+
+        h1 {
+
+            text-align: center;
+            margin-left: 5rem;
+        }
+
+        .name {
+            margin-left: 3rem;
+        }
+
+        .container {
+
+            border: 10px solid;
+            width: 30rem;
+            margin-inline-start: 5rem;
+            height: 310px;
+            border-radius: 2rem;
+            padding-left: 5px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+
+
+        }
+
+        .container input {
+            border-radius: 2rem;
+            padding-left: 1rem;
+            margin-left: 1rem;
+            height: 17px;
+        }
+
+        .btn {
+            text-align: center;
+
+
+        }
+
+        .btn button {
+            border-radius: 2rem;
+            height: 30px;
+            width: 80px;
+            font-size: medium;
+
+
+
+        }
+
+        .name label {
+            padding-left: 7px;
+
+            display: inline;
+            margin-right: 3rem;
+        }
+
+        .input input {
+            width: 7rem;
+        }
+
+        .input,
+        .Gender,
+        .stud-id,
+        .stud-email,
+        .stud-pass {
+            padding: 15px;
+            padding-left: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>REGISTRATION FROM</h1>
+
+
+    <form class="container">
+
+        <div class="input">
+            <label>Student Name</label><br>
+            <input type="text">
+            <input type="text">
+            <input type="text"><br>
+        </div>
+
+        <div class="name">
+            <label>First Name</label>
+            <label>Midddle Name</label>
+            <label>Last Name</label>
+        </div>
+
+
+        <div class="Gender">
+            <label title="gender">Gender </label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+        </div>
+
+
+        <div class="stud-id">
+            <label>Student ID</label>
+            <input type="text">
+        </div>
+
+
+        <div class="Stud=email">
+            <label>Student E-mail</label>
+
+            <input type="email" placeholder="ex:myname@gmail.com">
+        </div>
+
+
+        <div class="stud-pass">
+            <label>Password</label>
+            <input type="password">
+        </div>
+
+
+        <div class="btn">
+            <button type="submit"><a href="./sfit.html">Submit</a></button>
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
